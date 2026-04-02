@@ -35,3 +35,4 @@ if st.button("Predict Attrition"):
         st.error("The employee is likely to leave the company.")
     else:
         st.success("The employee is likely to stay with the company.")
+    st.info(f"Prediction probability")
